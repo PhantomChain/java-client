@@ -45,13 +45,13 @@ uploadArchives {
           //  }
 
             pom.project {
-                groupId = 'org.arkecosystem'
+                groupId = 'org.phantomchain'
                 version = '0.1.2'
                 artifactId = 'client'
 
                 name = 'java-client'
-                description = 'A simple Java API client for the ARK Blockchain.'
-                url = 'https://github.com/ArkEcosystem/java-client'
+                description = 'A simple Java API client for the PHANTOM Blockchain.'
+                url = 'https://github.com/PhantomChain/java-client'
                 inceptionYear = '2018'
 
                 licenses {
@@ -65,21 +65,21 @@ uploadArchives {
                     developer {
                         name = 'Brian Faust'
                         email = 'brian@ark.io'
-                        organization = 'Ark Ecosystem'
-                        organizationUrl = 'https://ark.io'
+                        organization = 'PhantomChain'
+                        organizationUrl = 'https://phantom.org'
                     }
                     developer {
                         name = 'Joshua Noack'
                         email = 'joshua@ark.io'
-                        organization = 'Ark Ecosystem'
-                        organizationUrl = 'https://ark.io'
+                        organization = 'PhantomChain'
+                        organizationUrl = 'https://phantom.org'
                     }
                 }
 
                 scm {
-                    connection = 'scm:git:git://github.com/ArkEcosystem/java-client.git'
-                    developerConnection = 'scm:git:ssh://github.com:ArkEcosystem/java-client.git'
-                    url = 'https://github.com/ArkEcosystem/java-client/tree/0.1.2'
+                    connection = 'scm:git:git://github.com/PhantomChain/java-client.git'
+                    developerConnection = 'scm:git:ssh://github.com:PhantomChain/java-client.git'
+                    url = 'https://github.com/PhantomChain/java-client/tree/0.1.2'
                 }
             }
         }
